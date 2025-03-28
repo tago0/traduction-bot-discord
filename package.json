@@ -1,0 +1,16 @@
+{
+  "name": "discord-translation-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for message translation using DeepL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "deepl-node": "^1.16.0",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
