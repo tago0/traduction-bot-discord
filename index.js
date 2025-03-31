@@ -54,7 +54,7 @@ function cleanMessageCache() {
 }
 
 client.on(Events.ClientReady, async () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as ${client.user.tag}! - made by tago0`);
   
   updateActivity();
   setInterval(updateActivity, 5000);
